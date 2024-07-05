@@ -365,7 +365,8 @@ article .icon{
 .project-img {
   border-radius: 2rem;
   width: 90%;
-  height: 90%;
+  height: auto;  /* Maintain aspect ratio */
+  max-width: 100%;  /* Ensure it doesn't overflow */
 }
 
 .project-title {
@@ -377,6 +378,8 @@ article .icon{
   color: black;
   border-color: rgb(163, 163, 163)
 }
+
+
 
 /* CONTACT */
 
